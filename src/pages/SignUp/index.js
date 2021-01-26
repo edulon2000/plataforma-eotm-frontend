@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import { Form, Container } from "./styles";
+import { Form, Container} from "./styles";
 
 class SignUp extends Component {
   state = {
