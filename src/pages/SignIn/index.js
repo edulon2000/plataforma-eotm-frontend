@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+
+
 import { Form, Container} from "./styles";
 
-class SignUp extends Component {
+class SignIn extends Component {
   state = {
     username: "",
     email: "",
@@ -44,4 +46,4 @@ class SignUp extends Component {
   }
 }
 
-export default SignUp;
+export default SignIn;

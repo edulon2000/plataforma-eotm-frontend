@@ -5,18 +5,8 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url("assets/imagemdefundo.png");
-  mix-blend-mode: luminosity;
-  img{
-        position: absolute;
-    width: 83px;
-    height: 83px;
-    left: 124px;
-    top: 17px;
-
-    background: url('assets/eotm.png');
-    border-radius: 150px;
-
+  background-image: url("../assets/back.jpg");
+  background-repeat: no-repeat;
   }
 `;
 
@@ -83,6 +73,15 @@ export const Form = styled.form`
     font-weight: bold;
     color: #999;
     text-decoration: none;
+  }
+  header{
+    position: absolute;
+  width: 83px;
+  height: 83px;
+  left: 124px;
+  top: 17px;
+  background: url('assets/eotm.png');
+  border-radius: 150px;
   }
   
 `
